@@ -1,11 +1,12 @@
-import Menu from './components/Menu';
-import './App.css';
 
+import './App.css';
+import Menu from './components/Menu';
+import Form from './components/Form';
 function App() {
   return (
     <div className="App">
-  
-      <Menu/>
+        <Menu/>
+        <Form/>
     </div>
   );
 }

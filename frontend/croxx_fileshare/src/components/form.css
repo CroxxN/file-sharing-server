@@ -1,0 +1,51 @@
+.parentContainerForm{
+    display: flex;
+    margin: 200px 0 0 0;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.uploadButton button{
+    height: 50px;
+    width: 200px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    align-items: baseline;
+    font-size: 20px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    font-family: math;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.accessUrl{
+    margin: 10px;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.accessUrl p{
+    margin: 15px;
+    color: white;
+    font-size: 25px;
+}
+.accessUrl input{
+    height: 30px;
+    margin: 15px 0 0 0;
+    background: transparent;
+    border: solid;
+    border-color: white;
+    border-radius: 15px;
+}
+.submit-button{
+    width: 80px;
+}
+input::selection{
+    border: dotted;
+    border-color: white;
+
+}

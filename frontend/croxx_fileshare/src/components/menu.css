@@ -1,0 +1,26 @@
+.parentContainer{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin: 5px 0 0 15px;
+}
+.logo img{
+    height: 84px;
+    width: 80px;
+}
+.navigation{
+    margin: 0 0 0 65%;
+}
+.navigation ul{
+    display: flex;
+    word-spacing: 5px;
+}
+.navigation li{
+    margin: 0 20px 0 5px;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+}
