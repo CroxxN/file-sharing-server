@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "./Group 3.svg";
+import logo from "./assets/logo.svg";
 import './menu.css';
 export default class Menu extends React.Component{
     render(){
