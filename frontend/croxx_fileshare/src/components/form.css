@@ -1,6 +1,6 @@
 .parentContainerForm{
     display: flex;
-    margin: 200px 0 0 0;
+    margin: 150px 0 0 0;
     flex-direction: column;
     align-items: center;
     
@@ -23,29 +23,32 @@
     color: whitesmoke;
     cursor: pointer;
 }
+.uploadButton:hover{
+    background-color: blue;
+}
 .accessUrl{
     margin: 10px;
     display: flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .accessUrl p{
-    margin: 15px;
+    margin: 10px;
     color: white;
     font-size: 25px;
 }
 .accessUrl input{
-    height: 30px;
-    margin: 15px 0 0 0;
+    height: 40px;
+    padding-left: 5px;
+    font-size: 24px;
     background: transparent;
     border: solid;
-    border-color: white;
-    border-radius: 15px;
+    border-color: white,whitesmoke;
+    border-radius: 5px;
+    color: white;
+}
+#fileName{
+    color: white;
 }
 .submit-button{
     width: 80px;
-}
-input::selection{
-    border: dotted;
-    border-color: white;
-
 }
