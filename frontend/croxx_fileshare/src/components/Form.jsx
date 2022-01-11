@@ -4,7 +4,8 @@ export default class Form extends React.Component{
     constructor(props){
         super(props)
         this.state={
-            fileName: ""
+            fileName: "",
+            fileSelected: false,
         };
     }
     fileSelectHandel= async ()=>{
@@ -12,11 +13,18 @@ export default class Form extends React.Component{
             const file = await fileHandle.getFile();
             const fileName = await file.name;
             const fileVlaue = await file.stream();
-            this.setState({fileName: fileName});
+            this.setState({
+                fileName: fileName,
+                fileSelected: true
+            });
             console.log(fileVlaue);
 
     };
 
+
+    uploadHandel = async() =>{
+        
+    }
 
     render(){    
         return(
@@ -34,7 +42,7 @@ export default class Form extends React.Component{
                     <div id='fileName'>
                         <p><u>{this.state.fileName}</u></p>
                     </div>
-                    <button className='submit-button' type="submit">Upload</button>
+                    <button className='submit-button' onClick={this.uploadHandel}>Upload</button>
             </div>
         );
 
